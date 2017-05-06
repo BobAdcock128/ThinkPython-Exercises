@@ -10,7 +10,6 @@ def square(t, length):
     polygon(t, length, 4)
 
 def arc(t, radius, angle):
-    pi = 3.1415159
     circumference = 2 * math.pi * radius
     maxSides = radius * 10
     fractionalSides = (angle/360) * maxSides
